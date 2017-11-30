@@ -1,0 +1,15 @@
+var NODE_TYPE = {
+	CONSTRAINT: 'CONSTRAINT',
+	COMBINATION: 'COMBINATION'
+};
+
+var OPERATOR = {
+	AND: 'AND',
+	OR: 'OR'
+};
+
+
+module.exports = {
+	NODE_TYPE: NODE_TYPE,
+	OPERATOR: OPERATOR
+};
