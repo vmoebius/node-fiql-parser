@@ -26,11 +26,11 @@ Implements only the basic [FIQL] standard draft without RSQL extensions like quo
 
 MIT © [Volker Möbius]()
 
-[npm-url]: https://npmjs.org/package/getenv-wire
-[npm-image]: https://badge.fury.io/js/getenv-wire.svg
-[travis-url]: https://travis-ci.org/vmoebius/getenv-wire
-[travis-image]: https://travis-ci.org/vmoebius/getenv-wire.svg?branch=master
-[daviddm-url]: https://david-dm.org/vmoebius/getenv-wire.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/vmoebius/getenv-wire
+[npm-url]: https://npmjs.org/package/node-fiql-parser
+[npm-image]: https://badge.fury.io/js/node-fiql-parser.svg
+[travis-url]: https://travis-ci.org/vmoebius/node-fiql-parser
+[travis-image]: https://travis-ci.org/vmoebius/node-fiql-parser.svg?branch=master
+[daviddm-url]: https://david-dm.org/vmoebius/node-fiql-parser.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/vmoebius/node-fiql-parser
 [node.js]: https://nodejs.org
 [FIQL]: https://tools.ietf.org/html/draft-nottingham-atompub-fiql-00
