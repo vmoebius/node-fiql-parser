@@ -26,8 +26,8 @@ Implements only the basic [FIQL] standard draft without RSQL extensions like quo
 
 MIT © [Volker Möbius]()
 
-[npm-url]: https://npmjs.org/package/node-fiql-parser
-[npm-image]: https://badge.fury.io/js/node-fiql-parser.svg
+[npm-url]: https://npmjs.org/package/fiql-parser
+[npm-image]: https://badge.fury.io/js/fiql-parser.svg
 [travis-url]: https://travis-ci.org/vmoebius/node-fiql-parser
 [travis-image]: https://travis-ci.org/vmoebius/node-fiql-parser.svg?branch=master
 [daviddm-url]: https://david-dm.org/vmoebius/node-fiql-parser.svg?theme=shields.io
