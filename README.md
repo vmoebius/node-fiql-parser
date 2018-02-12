@@ -15,7 +15,7 @@ Implements only the basic [FIQL] standard draft without RSQL extensions like quo
 
 ## Install
 
-	npm install fiql-parser@alpha --save
+	npm install fiql-parser --save
 	
 ## Usage
 
