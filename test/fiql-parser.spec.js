@@ -7,6 +7,10 @@ describe('FIQL parser', function () {
 
 	const parse = parser.parse;
 
+	it('should throw if parsing empty string', function () {
+		(function () {parse('')}).should.throw(Error);
+	});
+
 	it('should parse simple comparison constraint', function () {
 		const result = parse('a=eq=b');
 		result.should.eql({type: parser.NODE_TYPE.CONSTRAINT, selector: 'a', comparison: '=eq=', argument: 'b'});
