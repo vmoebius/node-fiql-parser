@@ -35,7 +35,7 @@ value
 unreserved
 	= alpha
 	/ digit
-	/ [-._~]
+	/ [-._~:]
 
 pct_encoded
 	= "%" d0:hex_digit d1:hex_digit  {return String.fromCharCode(parseInt(d0 + d1, 16));}

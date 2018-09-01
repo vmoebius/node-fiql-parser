@@ -26,6 +26,12 @@ describe('FIQL parser', function () {
 		result.should.eql({type: parser.NODE_TYPE.CONSTRAINT, selector: 'a', comparison: '==', argument: 'b'});
 	});
 
+	it('should allow standard equal-operator on iso8601 dates', function () {
+		const result = parse('a==2018-09-01T12:14:28Z');
+		result.should.eql({type: parser.NODE_TYPE.CONSTRAINT, selector: 'a', comparison: '==', argument: '2018-09-01T12:14:28Z'});
+	});
+
+
 	it('should allow standard not-equal-operator', function () {
 		const result = parse('a!=b');
 		result.should.eql({type: parser.NODE_TYPE.CONSTRAINT, selector: 'a', comparison: '!=', argument: 'b'});
