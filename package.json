@@ -1,6 +1,6 @@
 {
   "name": "fiql-parser",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "grammar for fiql parser",
   "keywords": [
     "FIQL",
