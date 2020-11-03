@@ -1,12 +1,10 @@
 #  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
-> Library to parse FIQL query strings
+> Library to parse FIQL & RSQL query strings
 
 ## Description
 
 Basic [node.js] library module to parse FIQL query expressions.
-
-Implements only the basic [FIQL] standard draft without RSQL extensions like quoting of values.
 
 ## References
 
